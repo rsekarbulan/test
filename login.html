@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecotrack - Login</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-darkBlue">
+    <!-- login section -->
+    <section id="login">
+        <!-- flex container -->
+        <div class="container flex flex-col w-608px items-center mx-auto mt-20 h-96 bg-black md:flex-row">
+            <!-- left (login) -->
+            <div class="flex flex-col p-10 space-y-3 md:w-1/2 w-full h-full bg-white">
+                <h1 class="text-center font-bold text-3xl">
+                    Login
+                </h1>
+                <form action="#" id="login">
+                    <p class="p-3">
+                        <label for="id" class="text-sm">Email</label>
+                        <input type="email" id="email" required class="my-1 px-3 py-0.5 rounded-full bg-lightGreen md:w-full"><br>
+                        <label for="pass"  class="text-sm">Password</label>
+                        <input type="password" id="pass" required class="my-1 px-3 py-0.5 rounded-full  bg-lightGreen md:w-full">
+                    </p>
+                <a href="#" class="flex p-1 bg-customPurple hover:bg-purple-900 text-white w-2/3 my-5 font-bold justify-center rounded-full md:w-full">Login</a>
+                </form>
+            </div>
+            <!-- right (no acc? register)-->
+            <div class="flex flex-col p-10 w-full h-full md:w-1/2 bg-tosca">
+                <h1 class="font-bold text-3xl text-center md:text-left">
+                    Don't have an account?
+                </h1>
+                <p class="text-center text-sm my-5 max-w-md md:text-left">
+                    Buat akun dan mulai blah blah blah 
+                </p>
+                <a href="register.html" class="py-1 w-3/4 bg-customPurple hover:bg-purple-900 text-white font-bold text-center rounded-full">Register Now</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
